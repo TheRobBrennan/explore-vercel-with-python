@@ -31,4 +31,6 @@ This example was initially presented in the [Using Vercel to host a Python API.]
 
 ### Hello, Matplot
 
-The example at [](./hello-matplot/README.md) demonstrates how [Matplot](https://matplotlib.org) can be used to return an image from a [Python](https://www.python.org) API endpoint hosted on [Vercel](https://vercel.com).
+The example at [](./hello-matplot/README.md) demonstrates how [Matplot](https://matplotlib.org) ~~can~~ should be used to return an image from a [Python](https://www.python.org) API endpoint hosted on [Vercel](https://vercel.com).
+
+(!) KNOWN ISSUE: While running this project on macOS using Python 3.11.1, this functions as expected with `vercel dev` but does **NOT** result in a successful deployment to Vercel with `vercel deploy` 🤔 (!)
