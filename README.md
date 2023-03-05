@@ -31,4 +31,4 @@ This example was initially presented in the [Using Vercel to host a Python API.]
 
 ### Hello, Matplot
 
-The example at [](./hello-matplot/README.md) demonstrates how [Matplot](https://matplotlib.org) ~~can~~ should be used to return an image from a [Python](https://www.python.org) API endpoint hosted on [Vercel](https://vercel.com).
+The example at [](./hello-matplot/README.md) demonstrates how [Matplot](https://matplotlib.org) can be used to return an image from a [Python](https://www.python.org) API endpoint hosted on [Vercel](https://vercel.com).
