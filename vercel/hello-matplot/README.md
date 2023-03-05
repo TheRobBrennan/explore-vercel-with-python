@@ -60,12 +60,11 @@ using HTTP Handler
 127.0.0.1 - - [18/Feb/2023 10:28:07] "GET /api HTTP/1.1" 200 -
 ^C
 rob@prism hello-matplot % vercel deploy
-Vercel CLI 28.16.2
-🔍  Inspect: https://vercel.com/therobbrennan/hello-matplot/2PANWQh84DGiRR3jx3yktdAk8fBz [2s]
-✅  Preview: https://hello-matplot-therobbrennan.vercel.app [33s]
-📝  To deploy to production (hello-matplot.vercel.app), run `vercel --prod`
+Vercel CLI 28.16.12
+🔍  Inspect: https://vercel.com/therobbrennan/hello-matplot/EMQtYxndKpzAx455UdQJvjB8Ucan [1s]
+✅  Production: https://hello-matplot.vercel.app [32s]
+📝  Deployed to production. Run `vercel --prod` to overwrite later (https://vercel.link/2F).
+💡  To change the domain or build command, go to https://vercel.com/therobbrennan/hello-matplot/settings
 ```
 
-In the example output above, I ~~can~~ should be able to open [https://hello-matplot-therobbrennan.vercel.app/](https://hello-matplot-therobbrennan.vercel.app/) in my favorite browser - and automatically be directed to [https://hello-matplot-therobbrennan.vercel.app/api](https://hello-matplot-therobbrennan.vercel.app/api) as expected...
-
-...except, this serverless function crashes when deployed to Vercel. 🤔
+In the example output above, going to [https://hello-matplot.vercel.app/api](https://hello-matplot.vercel.app/api) will display a simple line chart using matplot on Vercel.
