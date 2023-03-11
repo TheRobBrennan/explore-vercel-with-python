@@ -32,3 +32,7 @@ This example was originally presented in the [Using Vercel to host a Python API.
 ### Hello, Matplot
 
 The example at [](./hello-matplot/README.md) demonstrates how [Matplot](https://matplotlib.org) can be used to return an image from a [Python](https://www.python.org) API endpoint hosted on [Vercel](https://vercel.com).
+
+### NHL Shot Chart
+
+The example at [](./nhl-shot-chart/README.md) demonstrates how we can generate a shot chart for a specific NHL game using a a [Python](https://www.python.org) API endpoint hosted on [Vercel](https://vercel.com).
