@@ -30,4 +30,9 @@ Vercel CLI 28.16.15
 💡  To change the domain or build command, go to https://vercel.com/therobbrennan/nhl-shot-chart/settings
 ```
 
-In the example output above, going to [https://nhl-shot-chart.vercel.app/api](https://nhl-shot-chart.vercel.app) should display a simple shot chart on Vercel.
+In the example output above, going to [https://nhl-shot-chart.vercel.app/api](https://nhl-shot-chart.vercel.app) should display a simple shot chart on Vercel...
+
+...except for this attempt, the maximum Lambda size has been exceeded on Vercel with our requirements. 😞
+
+![](./images/20230311-sad-panda-max-lambda-size-exceeded-web.png)
+![](./images/20230311-sad-panda-max-lambda-size-exceeded-cli.png)

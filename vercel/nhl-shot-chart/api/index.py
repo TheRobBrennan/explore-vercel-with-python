@@ -4,6 +4,25 @@ from io import BytesIO
 from matplotlib.figure import Figure
 import base64
 
+# Shot chart imports
+import arrow
+import json
+import matplotlib.pyplot as plt
+import os
+import requests
+
+from datetime import datetime as dt
+from hockey_rink import NHLRink
+from PIL import Image
+
+from matplotlib import image
+from matplotlib import cm
+from matplotlib.patches import Circle, Rectangle, Arc, ConnectionPatch
+from matplotlib.patches import Polygon
+from matplotlib.collections import PatchCollection
+from matplotlib.path import Path
+from matplotlib.patches import PathPatch
+
 
 class handler(BaseHTTPRequestHandler):
     def generate_image(self):
